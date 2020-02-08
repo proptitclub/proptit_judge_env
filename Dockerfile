@@ -1,6 +1,6 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc:bionic
 LABEL AUTHOR=nghiatd.proptit@gmail.com
-LABEL OWNER=PROPTIT CLUB-https://www.facebook.com/clubproptit/
+LABEL OWNER=PROPTIT_CLUB_HN-https://www.facebook.com/clubproptit/
 WORKDIR /opt/
 ENV PYTHONUNBUFFERED=1 C_FORCE_ROOT=true
 ENV VNC_PASSWORD=proptit HTTP_PASSWORD=proptit USER=nghiatd PASSWORD=proptit
